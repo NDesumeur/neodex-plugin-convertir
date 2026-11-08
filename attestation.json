@@ -1,9 +1,9 @@
 {
   "pluginId": "neodex.convertir",
   "repo": "NDesumeur/neodex-plugin-convertir",
-  "version": "1.1.2",
-  "sha256": "b9577fe49ed164e7fc03211fab437e26c2da701262cd269010ebb0b0e0978d4d",
-  "approvedAt": "2026-11-08T12:10:47.070Z",
+  "version": "1.1.3",
+  "sha256": "efc311360357d8c806a3cabb962d0865f326f2fb9a12c987300aa45e6e5401dd",
+  "approvedAt": "2026-11-08T14:45:27.096Z",
   "neobase": ">=4.0.0",
-  "signature": "ffXsgYynqYaCIXSDmmuMibyXD3hulhmTdy98x7YCzkBcXdZJJkTnvo98sQnhN3JZfByB9gAakzsgFHUjd6HMAQ=="
+  "signature": "0p5J03Jjqd/vVhSIdFhRFA94wVotgBBKQsoZcOL6hqpVitikT1Lz9h555/ghr11miMuKibMCB8vXFLyU/6kDDw=="
 }
