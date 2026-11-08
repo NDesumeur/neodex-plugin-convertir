@@ -1,7 +1,7 @@
 {
   "id": "neodex.convertir",
   "name": "Convertir",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "NDesumeur",
   "description": "Change le format de tes fichiers : glisse-les, choisis le format de sortie, et le fichier converti est créé à côté de l'original, jamais écrasé. Images (PNG, JPG, WebP, ICO, AVIF…), sons (MP3, WAV, FLAC…), vidéos (MP4, WebM, GIF animé, son seul), tableaux (Excel, ODS, CSV, JSON) et documents (Word, Markdown, HTML vers PDF). Taille, qualité et recadrage en carré réglables ; ffmpeg requis pour les médias.",
   "icon": "icon.png",
