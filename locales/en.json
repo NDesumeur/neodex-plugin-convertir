@@ -35,5 +35,5 @@
  "ffmpeg introuvable : seuls les tableaux et documents peuvent être convertis.": "ffmpeg not found: only tables and documents can be converted.",
  "fichier léger": "light file",
  "format non pris en charge": "unsupported format",
- "Échec :": "Failure :"
+ "Échec :": "Failed:"
 }
