@@ -4,8 +4,10 @@
  "256 px (icône)": "256 px (icon)",
  "512 px max": "512 px max",
  "720 px max": "720 px max",
+ "Après": "After",
+ "Avant": "Before",
  "Ce plugin doit être approuvé par NeoDex pour s'ouvrir.": "This plugin must be approved by NeoDex to open.",
- "Change le format de tes fichiers : glisse-les, choisis le format de sortie, et le fichier converti est créé à côté de l'original, jamais écrasé. Images (PNG, JPG, WebP, ICO, AVIF…), sons (MP3, WAV, FLAC…), vidéos (MP4, WebM, GIF animé, son seul), tableaux (Excel, ODS, CSV, JSON) et documents (Word, Markdown, HTML vers PDF). Taille, qualité et recadrage en carré réglables ; ffmpeg requis pour les médias.": "Change your files' format: drag them in, pick the output format, and the converted file is created next to the original, never overwritten. Images (PNG, JPG, WebP, ICO, AVIF…), sounds (MP3, WAV, FLAC…), videos (MP4, WebM, animated GIF, audio only), spreadsheets (Excel, ODS, CSV, JSON) and documents (Word, Markdown, HTML to PDF). Adjustable size, quality and square crop; ffmpeg required for media.",
+ "Change le format de tes fichiers : glisse-les, choisis le format de sortie, et le fichier converti est créé à côté de l'original, jamais écrasé. Images (PNG, JPG, WebP, ICO, AVIF…), sons (MP3, WAV, FLAC…), vidéos (MP4, WebM, GIF animé, son seul), tableaux (Excel, ODS, CSV, JSON) et documents (Word, Markdown, HTML vers PDF). Taille, qualité et recadrage en carré réglables ; ffmpeg requis pour les médias. Compression d'une vidéo pour Discord (MP4 sous 10 Mo), avant et après avec la taille gagnée, deux colonnes sur grand écran.": "Change your files' format: drag them in, pick the output format, and the converted file is created next to the original, never overwritten. Images (PNG, JPG, WebP, ICO, AVIF…), sounds (MP3, WAV, FLAC…), videos (MP4, WebM, animated GIF, audio only), spreadsheets (Excel, ODS, CSV, JSON) and documents (Word, Markdown, HTML to PDF). Adjustable size, quality and square crop; ffmpeg required for media. Compress a video for Discord (MP4 under 10 MB), before and after with the space saved, two columns on large screens.",
  "Choisir des fichiers…": "Choose files…",
  "Conversion en cours…": "Conversion in progress...",
  "Conversion…": "Conversion…",
@@ -17,6 +19,7 @@
  "Images, sons, vidéos, tableaux (Excel, ODS, CSV, JSON) et documents (Word, Markdown, HTML, texte → PDF…). Le fichier converti est créé à côté de l'original, qui n'est jamais modifié.": "Images, sounds, videos, tables (Excel, ODS, CSV, JSON) and documents (Word, Markdown, HTML, text → PDF, etc.). The converted file is created alongside the original, which is never modified.",
  "Ko": "KB",
  "La taille, la qualité et le recadrage s'appliquent aux images et aux vidéos.": "Size, quality, and cropping apply to images and videos.",
+ "Les fichiers choisis apparaissent ici, avec le format de sortie à choisir pour chacun.": "Chosen files appear here, each with its output format to pick.",
  "Mo": "MB",
  "OUVRIR": "OPEN",
  "Prêt à convertir": "Ready to convert",
@@ -35,5 +38,7 @@
  "ffmpeg introuvable : seuls les tableaux et documents peuvent être convertis.": "ffmpeg not found: only tables and documents can be converted.",
  "fichier léger": "light file",
  "format non pris en charge": "unsupported format",
- "Échec :": "Failed:"
+ "même taille": "same size",
+ "Échec :": "Failed:",
+ "→ DISCORD (MP4 < 10 MO)": "→ DISCORD (MP4 < 10 MB)"
 }
