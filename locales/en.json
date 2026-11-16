@@ -40,5 +40,9 @@
  "format non pris en charge": "unsupported format",
  "même taille": "same size",
  "Échec :": "Failed:",
- "→ DISCORD (MP4 < 10 MO)": "→ DISCORD (MP4 < 10 MB)"
+ "→ DISCORD (MP4 < 10 MO)": "→ DISCORD (MP4 < 10 MB)",
+ "% plus léger (": "% lighter (",
+ "gagnés)": "saved)",
+ "% plus lourd": "% heavier",
+ "convertir : taille gagnée": "convert: size saved"
 }
