@@ -47,6 +47,6 @@ Développer un plugin : voir le [SDK NeoDex](https://github.com/NDesumeur/neodex
 
 ## Discord, avant / après et taille de l’écran (1.2.0)
 
-- **Discord** : pour une vidéo, choisis « → DISCORD (MP4 < 10 MO) ». Convertir calcule le débit d’après la durée, réduit l’image si besoin et recommence un peu plus bas si le fichier dépasse encore 10 Mo. Il faut NeoDex 3.1.16 ou plus récent (sinon le choix n’apparaît pas). Une vidéo très longue ne peut pas tenir sous 10 Mo : Convertir le dit.
+- **Discord** : pour une vidéo, choisis « → DISCORD (MP4 < 10 MO) ». Convertir calcule le débit d’après la durée, réduit l’image si besoin et recommence un peu plus bas si le fichier dépasse encore 10 Mo. Il faut NeoDex 3.1.17 ou plus récent (sinon le choix n’apparaît pas). Une vidéo très longue ne peut pas tenir sous 10 Mo : Convertir le dit.
 - **Avant / après** : chaque fichier converti montre deux barres à la même échelle (l’original et le nouveau) et ce qui est gagné, en pourcentage et en Mo.
 - **Taille de l’écran** : sur un grand écran, la zone de dépôt et les réglages à gauche, la liste des fichiers à droite ; sur un petit écran, tout en une colonne.

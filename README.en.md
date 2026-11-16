@@ -47,6 +47,6 @@ Building a plugin: see the [NeoDex SDK](https://github.com/NDesumeur/neodex-sdk)
 
 ## Discord, before / after and screen size (1.2.0)
 
-- **Discord**: for a video, pick “→ DISCORD (MP4 < 10 MB)”. Convertir works out the bitrate from the duration, shrinks the picture if needed and tries again a little lower if the file is still over 10 MB. Needs NeoDex 3.1.16 or later (otherwise the choice is not shown). A very long video cannot fit under 10 MB: Convertir says so.
+- **Discord**: for a video, pick “→ DISCORD (MP4 < 10 MB)”. Convertir works out the bitrate from the duration, shrinks the picture if needed and tries again a little lower if the file is still over 10 MB. Needs NeoDex 3.1.17 or later (otherwise the choice is not shown). A very long video cannot fit under 10 MB: Convertir says so.
 - **Before / after**: each converted file shows two bars on the same scale (original and new) and the space saved, in percent and MB.
 - **Screen size**: on a large screen, the drop zone and settings on the left, the file list on the right; on a small screen, everything in one column.
