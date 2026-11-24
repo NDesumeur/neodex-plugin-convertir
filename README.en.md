@@ -4,6 +4,10 @@ Change your files' format without extra software: images, sounds, videos, spread
 
 *Version française : [README.md](README.md)*
 
+## Discord, WhatsApp and email presets (new in 1.3.0)
+
+One click sets the whole list: videos under 10, 16 or 25 MB, images and sounds in the right format, icons, extracted sound.
+
 ## How to use it
 
 1. **Drag files** onto the drop area, or click **Choose files…** (several at once if you like). From the Files app, you can also send a file straight to Convertir.
@@ -22,6 +26,18 @@ Change your files' format without extra software: images, sounds, videos, spread
 | Video | MP4, MKV, WebM, MOV, AVI, WMV, FLV, M4V, 3GP | MP4, WebM, MKV, MOV, animated GIF, and the sound alone as MP3, WAV or M4A |
 | Spreadsheet | Excel (XLSX, XLS), ODS, CSV, TSV, JSON | XLSX, CSV, JSON, ODS, TSV, HTML page |
 | Document | Word (DOCX), Markdown, HTML, text | PDF (A4), HTML, text, Markdown |
+
+## Presets (1.3.0)
+
+One click sets the whole list, and the files added afterwards:
+
+- **FOR DISCORD**: videos in MP4 under 10 MB (quality is chosen from the length), images in WebP 1920 px, sounds in MP3. Everything goes through without Nitro.
+- **FOR WHATSAPP**: videos in MP4 under 16 MB, images in JPG 1920 px, sounds in MP3.
+- **FOR AN EMAIL**: videos under 25 MB, light JPG images at 1280 px, documents in PDF.
+- **AS AN ICON**: images as square 256 px PNG.
+- **KEEP THE SOUND**: the sound of videos extracted as MP3.
+
+Each video can also aim at WhatsApp or an email in its own list. Changing a setting by hand removes the preset.
 
 ## Settings
 

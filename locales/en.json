@@ -44,5 +44,19 @@
  "% plus léger (": "% lighter (",
  "gagnés)": "saved)",
  "% plus lourd": "% heavier",
- "convertir : taille gagnée": "convert: size saved"
+ "convertir : taille gagnée": "convert: size saved",
+ "Préréglages": "Presets",
+ "Un clic règle toute la liste : format, taille et qualité.": "One click sets the whole list: format, size and quality.",
+ "POUR DISCORD": "FOR DISCORD",
+ "Vidéos en MP4 sous 10 Mo, images en WebP 1920 px, sons en MP3 : tout passe sans Nitro.": "Videos in MP4 under 10 MB, images in WebP 1920 px, sounds in MP3: everything goes through without Nitro.",
+ "POUR WHATSAPP": "FOR WHATSAPP",
+ "Vidéos en MP4 sous 16 Mo, images en JPG 1920 px, sons en MP3.": "Videos in MP4 under 16 MB, images in JPG 1920 px, sounds in MP3.",
+ "POUR UN E-MAIL": "FOR AN EMAIL",
+ "Vidéos sous 25 Mo, images en JPG 1280 px légères, documents en PDF.": "Videos under 25 MB, light JPG images at 1280 px, documents in PDF.",
+ "EN ICÔNE": "AS AN ICON",
+ "Images en PNG carrées de 256 px (vignettes, icônes de raccourcis).": "Images as square 256 px PNG (thumbnails, shortcut icons).",
+ "GARDER LE SON": "KEEP THE SOUND",
+ "Le son des vidéos extrait en MP3.": "The sound of videos extracted as MP3.",
+ "→ WHATSAPP (MP4 < 16 MO)": "→ WHATSAPP (MP4 < 16 MB)",
+ "→ E-MAIL (MP4 < 25 MO)": "→ EMAIL (MP4 < 25 MB)"
 }

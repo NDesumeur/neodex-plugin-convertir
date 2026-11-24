@@ -10,7 +10,11 @@ module.exports = async ({ pj, sleep }) => {
   await pj(`document.getElementById('cvList').__add(${JSON.stringify([path.join(dir, 'photo.png'), path.join(dir, 'clip.mp4')])}), 0`); await sleep(500);
   const opts = await pj(`[...document.querySelectorAll('#cvList select.f')].map(s => [...s.options].map(o => o.value).join(','))`);
   if (!opts[1]?.includes('discord')) throw new Error('pas de cible Discord : ' + JSON.stringify(opts));
-  await pj(`(() => { const s = document.querySelectorAll('#cvList select.f'); s[0].value = 'webp'; s[0].dispatchEvent(new Event('change')); const v = document.querySelectorAll('#cvList select.f')[1]; v.value = 'discord'; v.dispatchEvent(new Event('change')); document.getElementById('cvGo').click(); })(), 0`);
+  // le préréglage « POUR DISCORD » règle toute la liste : l'image en WebP 1920 px, la vidéo sous 10 Mo
+  await pj(`[...document.querySelectorAll('#cvPresets button')].find(b => b.textContent === 'POUR DISCORD').click(), 0`); await sleep(100);
+  const pre = await pj(`({ to: document.getElementById('cvList').__items().map(i => i.to), size: document.getElementById('cvSize').value })`);
+  if (pre.to.join() !== 'webp,discord' || pre.size !== '1920') throw new Error('préréglage Discord : ' + JSON.stringify(pre));
+  await pj(`document.getElementById('cvGo').click(), 0`);
   let st; for (let i = 0; i < 240; i++) { await sleep(500); st = await pj(`[...document.querySelectorAll('.cvItem')].map(c => c.className.split(' ').pop())`); if (st.every(s => s === 'done' || s === 'err')) break; }
   if (!st.every(s => s === 'done')) throw new Error('conversions : ' + JSON.stringify(st) + ' ' + await pj(`document.getElementById('cvList').innerText`));
   const out = fs.readdirSync(dir), mp4 = out.find(f => /^clip \(\d\)\.mp4$|^clip-\d\.mp4$|^clip.+\.mp4$/.test(f) && f !== 'clip.mp4');

@@ -4,6 +4,10 @@ Change le format de tes fichiers sans logiciel en plus : images, sons, vidéos, 
 
 *English version: [README.en.md](README.en.md)*
 
+## Préréglages Discord, WhatsApp, e-mail (nouveau en 1.3.0)
+
+Un clic règle toute la liste : vidéos sous 10, 16 ou 25 Mo, images et sons au bon format, icônes, son extrait.
+
 ## Comment l'utiliser
 
 1. **Glisse des fichiers** sur la zone de dépôt, ou clique **Choisir des fichiers…** (plusieurs à la fois si tu veux). Depuis l'appli Fichiers, tu peux aussi envoyer un fichier directement à Convertir.
@@ -22,6 +26,18 @@ Change le format de tes fichiers sans logiciel en plus : images, sons, vidéos, 
 | Vidéo | MP4, MKV, WebM, MOV, AVI, WMV, FLV, M4V, 3GP | MP4, WebM, MKV, MOV, GIF animé, et le son seul en MP3, WAV ou M4A |
 | Tableau | Excel (XLSX, XLS), ODS, CSV, TSV, JSON | XLSX, CSV, JSON, ODS, TSV, page HTML |
 | Document | Word (DOCX), Markdown, HTML, texte | PDF (format A4), HTML, texte, Markdown |
+
+## Préréglages (1.3.0)
+
+Un clic règle toute la liste, et les fichiers ajoutés ensuite :
+
+- **POUR DISCORD** : vidéos en MP4 sous 10 Mo (la qualité est choisie d’après la durée), images en WebP 1920 px, sons en MP3. Tout passe sans Nitro.
+- **POUR WHATSAPP** : vidéos en MP4 sous 16 Mo, images en JPG 1920 px, sons en MP3.
+- **POUR UN E-MAIL** : vidéos sous 25 Mo, images en JPG 1280 px légères, documents en PDF.
+- **EN ICÔNE** : images en PNG carrées de 256 px.
+- **GARDER LE SON** : le son des vidéos extrait en MP3.
+
+Chaque vidéo peut aussi viser WhatsApp ou un e-mail dans sa propre liste. Changer un réglage à la main enlève le préréglage.
 
 ## Réglages
 
